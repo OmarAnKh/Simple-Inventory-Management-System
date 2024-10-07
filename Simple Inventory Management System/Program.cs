@@ -59,6 +59,8 @@ namespace Program
                         inventory.Display();
                         break;
                     case 3:
+
+
                         break;
                 }
 
