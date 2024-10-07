@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Omark\\source\\repos\\Simple Inventory Management System\\Simple Inventory Management System\\Simple Inventory Management System.csproj": {}
+    "D:\\VS-20230610T091643Z-001\\VS\\course\\foothill\\C#\\Simple Inventory Management System\\Simple Inventory Management System\\Simple Inventory Management System.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Omark\\source\\repos\\Simple Inventory Management System\\Simple Inventory Management System\\Simple Inventory Management System.csproj": {
+    "D:\\VS-20230610T091643Z-001\\VS\\course\\foothill\\C#\\Simple Inventory Management System\\Simple Inventory Management System\\Simple Inventory Management System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Omark\\source\\repos\\Simple Inventory Management System\\Simple Inventory Management System\\Simple Inventory Management System.csproj",
+        "projectUniqueName": "D:\\VS-20230610T091643Z-001\\VS\\course\\foothill\\C#\\Simple Inventory Management System\\Simple Inventory Management System\\Simple Inventory Management System.csproj",
         "projectName": "Simple Inventory Management System",
-        "projectPath": "C:\\Users\\Omark\\source\\repos\\Simple Inventory Management System\\Simple Inventory Management System\\Simple Inventory Management System.csproj",
+        "projectPath": "D:\\VS-20230610T091643Z-001\\VS\\course\\foothill\\C#\\Simple Inventory Management System\\Simple Inventory Management System\\Simple Inventory Management System.csproj",
         "packagesPath": "C:\\Users\\Omark\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Omark\\source\\repos\\Simple Inventory Management System\\Simple Inventory Management System\\obj\\",
+        "outputPath": "D:\\VS-20230610T091643Z-001\\VS\\course\\foothill\\C#\\Simple Inventory Management System\\Simple Inventory Management System\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Omark\\AppData\\Roaming\\NuGet\\NuGet.Config",
