@@ -18,14 +18,14 @@ namespace Program
                 Console.WriteLine($"4 To delete a product");
                 Console.WriteLine($"5 To search for a product");
                 Console.WriteLine($"0 for Adding a new product for the inventory");
-                operation = Convert.ToInt32(Console.ReadLine());
+                int.TryParse(Console.ReadLine(), out operation);
             } while (operation > 5 || operation < 0);
 
 
         }
         static List<string> getInfo()
         {
-            string name = Console.ReadLine();
+            string name = Console.ReadLine().Trim();
             string price = Console.ReadLine();
             string quantity = Console.ReadLine();
             List<string> list = new List<string>();
@@ -41,11 +41,12 @@ namespace Program
             inventory.AddProduct(list[0], (float)Convert.ToDouble(list[1]), Convert.ToInt32(list[2]));
         }
 
+        
 
         static public void Main()
         {
             Inventory inventory = new Inventory();
-
+            
             do
             {
                 printMenu();
@@ -56,18 +57,25 @@ namespace Program
                         addProduct(inventory);
                         break;
                     case 2:
-                        inventory.Display();
+                        inventory.Display(inventory.Products);
                         break;
                     case 3:
+                        List<string> list = getInfo();  
+                        string newName = Console.ReadLine().Trim();
+                        inventory.UpdateProduct(list[0], (float)Convert.ToDouble(list[1]), Convert.ToInt32(list[2]), newName);
+                        break;
+                    case 4:
+                        string productName = Console.ReadLine().Trim();
+                        inventory.RemoveProduct(productName);
+                        break;
 
+                    case 5:
 
                         break;
                 }
 
 
             } while (operation != 0);
-
-            inventory.Display();
         }
     }
 }
